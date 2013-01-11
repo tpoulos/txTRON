@@ -27,13 +27,13 @@ txTRON contains many advanced features, such as:
 
 To install and run:
 -------------------
-*	Install python 2.7 and pyGame (PodSixNet is included with the source)
+*	Install [Python 2.7.*](http://www.python.org/download/) and [pygame](http://www.pygame.org/download.shtml) (PodSixNet is included with the source)
 *	run RUN_txTRON.py
 
 To run networking:
 ------------------
-*	run tron_server on the computer you wish to use as the host.
-*	change config.SERVER_IP to the IP of the server (or "localhost" if on the same machine as the server)
+*	run tron_server.py on the computer you wish to use as the host.
+*	change the variable SERVER_IP in config.py to the IP of the server (or "localhost" if on the same machine as the server)
 *	Run RUN_txTRON.py
 *	enter networking tab to reserve a spot
 *	Press spacebar on any computer to add an AI
